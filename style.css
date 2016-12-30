@@ -9,18 +9,13 @@
   height: 50px;
 }
 
-body {
-  height: 100%;
-}
-
+/* wycentrowanie menusow */
 #menu1, #menu2 {
   margin-top: 20px;
 }
 
-.jumbotron {
-  margin-top: 80px;
-}
 
+/* footer */
 .footer {
   position: absolute;
   bottom: 0;
@@ -33,4 +28,34 @@ body {
 .footer .text-muted {
   margin: 20px 0;
   text-align: center;
+}
+
+
+
+
+/* input search */
+input[type=text] {
+    margin-top: 100px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+/* table */
+.table {
+  margin-top: 100px;
 }
